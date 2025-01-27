@@ -3,7 +3,7 @@
 ## AWS
 
 ### AI Services
-- [AWS Textract](AWS/AWS-Textract.md)
+- [AWS Textract](aws/aws-textract)
 
 ## Azure
 
