@@ -1,3 +1,5 @@
+<button id="theme-toggle">Theme</button>
+
 # Index
 
 ## AWS

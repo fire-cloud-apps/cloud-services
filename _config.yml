@@ -1,6 +1,8 @@
-remote_theme: pages-themes/modernist@v0.2.0
+# remote_theme: pages-themes/modernist@v0.2.0
+theme: minima
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-include-cache
+
 
 site_name: Cloud Services of AWS, Azure and GCP
 site_url: https://fire-cloud-apps.github.io/
