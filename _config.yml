@@ -1,1 +1,14 @@
 theme: minima
+site_name: Cloud Services of AWS, Azure and GCP
+site_url: https://fire-cloud-apps.github.io/
+site_author: SRG
+site_description: AWS, Azure, and GCP are major cloud providers offering a wide range of on-demand computing services. AWS boasts the largest and most comprehensive service catalog. Azure excels in hybrid cloud solutions and Microsoft ecosystem integration, while GCP focuses on data analytics and cutting-edge technologies like AI/ML.
+
+nav:
+  - About: index.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
