@@ -1,7 +1,9 @@
 # Index
 
 ## AWS
-    - [AWS Textract](/AWS/AWS-Textract.md)
+
+### AI Services
+- [AWS Textract](AWS/AWS-Textract.md)
 
 ## Azure
 
