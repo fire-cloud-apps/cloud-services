@@ -1,8 +1,8 @@
-## AWS S3
+# AWS S3
 
 **What:**
 
-* **S3** stands for **Simple Storage Service**. It's a highly scalable and durable object storage service offered by AWS. 
+* **S3** stands for **Simple Storage Service**. It's a highly scalable and durable object storage service offered by AWS.
 * S3 stores data as objects within containers called "buckets." Each object is a file (like images, videos, documents) and any associated metadata.
 
 **Why:**
@@ -52,3 +52,26 @@ flowchart LR
 * Amazon EBS
 * Amazon FSx
 * AWS Lambda
+
+
+
+```mermaid
+flowchart
+A[Create Bucket] --> B[Upload Objects]
+B --> C[Manage Objects]
+C --> D[Access Objects]
+D --> E[Data Deletion]
+```
+
+```mermaid
+erDiagram
+          CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+          CUSTOMER ||--o{ ORDER : places
+          CUSTOMER ||--o{ INVOICE : "liable for"
+          DELIVERY-ADDRESS ||--o{ ORDER : receives
+          INVOICE ||--|{ ORDER : covers
+          ORDER ||--|{ ORDER-ITEM : includes
+          PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+          PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+
+```

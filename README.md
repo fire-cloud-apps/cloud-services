@@ -1,19 +1,16 @@
-<button id="theme-toggle">Theme</button>
+# index
 
-# Index
+Theme
 
-## AWS
+## Index
 
-### AI Services
-- [AWS Textract](aws/aws-textract)
-- [Amazon Memory DB - Redis](aws/amazon-memory-db-for-redis)
+### AWS
 
-## Azure
+#### AI Services
 
-## Google
+* [AWS Textract](aws/aws-textract/)
+* [Amazon Memory DB - Redis](aws/amazon-memory-db-for-redis/)
 
-<!-- Link to the CSS -->
-<link rel="stylesheet" href="assets/css/style.css">
+### Azure
 
-<!-- Link to the JavaScript -->
-<script src="assets/js/dark-mode-toggle.js"></script>
+### Google
