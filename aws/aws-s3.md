@@ -38,12 +38,15 @@
 
 **Diagram (Mermaid.js):**
 
+
+
 ```mermaid
-flowchart LR
+flowchart
     A[Create Bucket] --> B[Upload Objects]
     B --> C[Manage Objects]
     C --> D[Access Objects]
-    D --> E[Data Deletion (Optional)]
+    D --> E[Data Deletion]
+
 ```
 
 **Related Services:**
